@@ -15,6 +15,8 @@ private String s1;
 
     private String s4;
 
+    private String s6;
+
     public static void main(String[] args) {
 //        SimpleAccountRealm simpleAccountRealm=new SimpleAccountRealm();
 //
