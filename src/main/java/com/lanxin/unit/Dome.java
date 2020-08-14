@@ -8,6 +8,9 @@ import org.apache.shiro.subject.Subject;
 
 public class Dome {
 private String s1;
+
+    private String s2;
+
     public static void main(String[] args) {
 //        SimpleAccountRealm simpleAccountRealm=new SimpleAccountRealm();
 //
