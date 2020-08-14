@@ -11,6 +11,8 @@ public class Dome {
 
     private String s2;
 
+    private String S3;
+
     public static void main(String[] args) {
 //        SimpleAccountRealm simpleAccountRealm=new SimpleAccountRealm();
 //
