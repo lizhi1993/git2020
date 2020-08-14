@@ -12,6 +12,7 @@ private String s1;
     private String s5;
 
     private String S3;
+private String s6;
 
     private String s4;
 
