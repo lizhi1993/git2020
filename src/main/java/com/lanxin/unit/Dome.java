@@ -9,7 +9,7 @@ import org.apache.shiro.subject.Subject;
 public class Dome {
 private String s1;
 
-    private String s2;
+    private String s5;
 
     private String S3;
 
