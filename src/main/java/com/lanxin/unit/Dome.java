@@ -9,6 +9,7 @@ import org.apache.shiro.subject.Subject;
 public class Dome {
     private String s1;
     private String s2;
+    private String s3;
     private String s4;
     public static void main(String[] args) {
 //        SimpleAccountRealm simpleAccountRealm=new SimpleAccountRealm();
