@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lanxin.dao.EmpDao">
+
+    <select id="selectEmpName" parameterType="java.lang.String" resultType="java.lang.String">
+            select password from emp where ename=#{ename}
+    </select>
+
+    <select id="selectRname" parameterType="java.lang.String" resultType="java.lang.String">
+            select rname from role where ename=#{ename}
+    </select>
+
+    <select id="selectQname" parameterType="java.lang.String" resultType="java.lang.String">
+            select qname from qx_role q,role r where q.rname=r.rname and r.ename=#{ename}
+    </select>
+
+
+</mapper>

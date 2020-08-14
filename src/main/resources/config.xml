@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <settings><!--设置显示sql-->
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+    </settings>
+
+
+<!--    <environments default="dome">-->
+<!--        <environment id="dome">-->
+<!--            <transactionManager type="JDBC"></transactionManager>-->
+<!--            <dataSource type="POOLED">-->
+<!--                <property name="username" value="root"/>-->
+<!--                <property name="password" value="123456"></property>-->
+<!--                <property name="driver" value="com.mysql.jdbc.Driver"></property>-->
+<!--                <property name="url"-->
+<!--                          value="jdbc:mysql://localhost:3306/myuser?useUnicode=true&amp;characterEncoding=UTF-8"></property>-->
+
+<!--            </dataSource>-->
+<!--        </environment>-->
+<!--    </environments>-->
+
+<!--    <mappers>-->
+<!--        <mapper resource="mappers/EmpMapper.xml"></mapper>-->
+<!--    </mappers>-->
+
+</configuration>
